@@ -1,0 +1,9 @@
+h1{
+    Text-align: center;
+    text-transform: uppercase;
+    text-font-family: 'Arial', sans-serif;
+}
+li{
+    text-transform: capitalize;
+    font-size: 20px;
+}

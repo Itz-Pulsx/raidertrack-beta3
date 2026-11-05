@@ -1,11 +1,14 @@
-h1 {
-    text-align: center;
-    text-transform: uppercase;
+body {
     font-family: 'Arial', sans-serif;
 }
 
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
 td {
-    background-color: grey;
+    background-color: rgb(187, 187, 187);
     border-radius: 8px;
     padding: 10px;
     padding-top: 25px;

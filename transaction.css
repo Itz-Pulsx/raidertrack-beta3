@@ -11,3 +11,6 @@ h2{
 table{
     margin: 0 auto;
 }
+td{
+    text-align: center;
+}

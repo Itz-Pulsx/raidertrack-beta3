@@ -1,3 +1,276 @@
-.centered-container {
+.ashton {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  min-width: 1440px;
+  min-height: 1024px;
+  position: relative;
+}
+
+.ashton .image {
+  position: absolute;
+  top: 72px;
+  left: 0;
+  width: 1440px;
+  height: 952px;
+  aspect-ratio: 1.5;
+  object-fit: cover;
+}
+
+.ashton .rectangle {
+  position: absolute;
+  top: 169px;
+  left: 248px;
+  width: 944px;
+  height: 834px;
+}
+
+.ashton .group {
+  position: absolute;
+  top: 566px;
+  left: 64px;
+  width: 1277px;
+  height: 152px;
+  display: flex;
+  gap: 143px;
+}
+
+.ashton .div {
+  width: 212px;
+  height: 152px;
+  background-color: #ed1c24;
+  border: 5px solid;
+  border-color: #000000;
+}
+
+.ashton .text-wrapper {
+  position: absolute;
+  top: 564px;
+  left: 68px;
+  width: 206px;
+  height: 152px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0px 4px 4px #00000040;
+  -webkit-text-stroke: 2px #6e6e6f;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 42px;
   text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ashton .TRANSACTION-HISTORY {
+  position: absolute;
+  top: 564px;
+  left: 417px;
+  width: 206px;
+  height: 152px;
+  text-shadow: 0px 4px 4px #00000040;
+  -webkit-text-stroke: 2px #6e6e6f;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ashton .span {
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+}
+
+.ashton .text-wrapper-2 {
+  font-size: 42px;
+}
+
+.ashton .text-wrapper-3 {
+  left: 772px;
+  position: absolute;
+  top: 564px;
+  width: 206px;
+  height: 152px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0px 4px 4px #00000040;
+  -webkit-text-stroke: 2px #6e6e6f;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 42px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ashton .text-wrapper-4 {
+  left: 1130px;
+  position: absolute;
+  top: 564px;
+  width: 206px;
+  height: 152px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0px 4px 4px #00000040;
+  -webkit-text-stroke: 2px #6e6e6f;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 42px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ashton .RAIDER-TRACK {
+  position: absolute;
+  top: 189px;
+  left: 171px;
+  width: 1103px;
+  height: 303px;
+}
+
+.ashton .rectangle-2 {
+  position: absolute;
+  top: 482px;
+  left: 64px;
+  width: 96px;
+  height: 12px;
+  background-color: #ed1c24;
+  border: 5px solid;
+  border-color: #000000;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.ashton .rectangle-3 {
+  position: absolute;
+  top: 476px;
+  left: 1245px;
+  width: 96px;
+  height: 12px;
+  background-color: #ed1c24;
+  border: 5px solid;
+  border-color: #000000;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.ashton .text-wrapper-5 {
+  position: absolute;
+  top: 384px;
+  left: calc(50.00% - 261px);
+  width: 529px;
+  text-shadow: 0px 4px 4px #00000040;
+  -webkit-text-stroke: 3px #000000;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #ed1c24;
+  font-size: 150px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ashton .top-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1442px;
+  height: 143px;
+}
+
+.ashton .rectangle-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 143px;
+  background-color: #6d0707;
+}
+
+.ashton .text-wrapper-6 {
+  position: absolute;
+  top: calc(50.00% - 72px);
+  left: calc(50.00% - 279px);
+  width: 556px;
+  height: 142px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Irish Grover-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 96px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ashton .img {
+  position: absolute;
+  top: 32px;
+  left: 26px;
+  width: 80px;
+  height: 80px;
+  aspect-ratio: 1;
+}
+
+.ashton .image-2 {
+  position: absolute;
+  top: 24px;
+  left: 1327px;
+  width: 97px;
+  height: 97px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.ashton .image-3 {
+  position: absolute;
+  top: 24px;
+  left: 1198px;
+  width: 97px;
+  height: 97px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.ashton .image-4 {
+  position: absolute;
+  top: 24px;
+  left: 138px;
+  width: 97px;
+  height: 97px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.ashton .image-5 {
+  position: absolute;
+  top: 24px;
+  left: 1055px;
+  width: 97px;
+  height: 97px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.ashton .image-6 {
+  position: absolute;
+  top: 24px;
+  left: 278px;
+  width: 97px;
+  height: 97px;
+  aspect-ratio: 1;
+  object-fit: cover;
 }

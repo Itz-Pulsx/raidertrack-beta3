@@ -2,7 +2,16 @@ h1{
     text-align: center;
     text-transform: uppercase;
     text-font-family: 'Arial', sans-serif;
-    text-size: 50px;
+    text-size: 50 px;
+}
+header{
+    position: absolute;
+    color: white;
+    top: 0px;
+    background-color: #6E0707;
+    height: 80 px;
+    width:  100%;
+    padding: 0px;   
 }   
 li{
     text-transform: capitalize;

@@ -1,16 +1,97 @@
 th{
-    width: 100px;
-    height: 50px;
+    width: 120px;
+    height: 40px;
+    background-color: #180000;
+    color: #b00000;
+    padding: 5px;
 }
 h1{
-    Text-align: center;
+    text-align: center;
+    background-color: #8b0000;
+    color: white;
 }
 h2{
-    Text-align: center;
+    text-align: center;
+    color: #b00000;
+    font-size: 40px;
 }
 table{
     margin: 0 auto;
 }
 td{
     text-align: center;
+    background-color: #180000;
+    color: #b00000;
+    padding: 8px;
+}
+body{
+    background-color: #222222;
+}
+main{
+    background-image: url("images/campus-background.png");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.transaction-buttons{
+    text-align: center;
+    background-color: #180000;
+    padding: 15px;
+}
+button{
+    width: 40%;
+    height: 45px;
+    background-color: #f5eeee;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.top-bar{
+    background-color: #8b0000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-left{
+    display: flex;
+    gap: 15px;
+}
+
+.nav-right{
+    display: flex;
+    gap: 15px;
+}
+
+.top-bar h1{
+    flex: 1;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+main{
+    position: relative;
+    overflow: hidden;
+}
+
+.raider-image{
+    position: absolute;
+    width: 450px;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+main h2,
+.transaction-buttons,
+table{
+    position: relative;
+    z-index: 1;
+}
+table{
+    margin: 0 auto;
+    border-spacing: 20px;
 }

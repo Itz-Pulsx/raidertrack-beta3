@@ -7,15 +7,30 @@
     <link rel="stylesheet" href="transaction.css">
 </head>
 <body>
-    <img src="images/home.png" alt="Home" class="home-icon" width = "50" height = "50">
-    <img src="images/shopping-cart.png" alt="Dining halls" class="cart-icon" width = "50" height = "50">
-    <img src="images/enter.png" alt="login" class="enter-icon" width = "50" height = "50">
+    <header class="top-bar">
+
+    <div class="nav-left">
+        <img src="images/home.png" alt="Home" width="50" height="50">
+        <img src="images/shopping-cart.png" alt="Dining halls" width="50" height="50">
+        <img src="images/enter.png" alt="Login" width="50" height="50">
+    </div>
+
     <h1>Texas Tech</h1>
-     <img src="images/money-bag.png" alt="Transaction History" class="Logo" width = "50" height = "50">
-    <img src="images/calendar.png" alt="Dining planner" class="calendar-icon" width = "50" height = "50">
-    <img src="images/search-interface-symbol.png" alt="search" class="food-icon" width = "50" height = "50">
+
+    <div class="nav-right">
+        <img src="images/money-bag.png" alt="Transaction History" width="50" height="50">
+        <img src="images/calendar.png" alt="Dining planner" width="50" height="50">
+        <img src="images/search-interface-symbol.png" alt="Search" width="50" height="50">
+    </div>
+
+</header>
     <main>
+        <img src="images/transaction-background.png" alt="Red Raider" class="raider-image">
         <h2>Transaction History</h2>
+        <div class="transaction-buttons">
+    <button>All transactions</button>
+    <button>Search transactions</button>
+</div>
         <table>
             <thead>
                 <tr>
@@ -34,7 +49,8 @@
                     <td>$12.48</td>
                     <td>$187.50</td>
                 </tr>
-                   <td>Sept 15, 2024 10:30 AM</td>
+                 <tr>
+                    <td>Sept 15, 2024 10:30 AM</td>
                     <td>Student Union Building</td>
                     <td>Food</td>
                     <td>$10.01</td>
@@ -44,5 +60,7 @@
             </tbody>
         </table>
     
-</body>
+    </main>
+    </body>
 </html>
+
